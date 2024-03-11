@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta_Site</title>
+    <link rel="stylesheet" href="css/estilo03.css"> 
+    <script rel ="text/javascript" src="js/jsFaleconosco.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Bread_Charity_Logo.png" alt="logo" width="200px">
+            </picture>
+        </div>
+        <div class="caption"> 
+            <span class="border">Maison du Pain</span> 
+         </div> 
+        <nav>
+            <div class="navegacao">
+                <a href="Faleconosco.html">Fale conosco</a>
+                <a href="index.html">Conteudo</a>
+                <a href="principal.html">Principal</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="conteudo">
+                <form name ="formulario" action="cadastra.php" method= "post" onsubmit= "return Enviar()">
+                <label for="nome"> Nome Completo</label><br>
+                <input type="text" id="nome" placeholder="Digite o seu nome."><br><br>
+                <label for="email">Email</label><br>
+                <input type ="email" id="email" placeholder="email@email.com"><br><br>
+                <textarea id="comentario" placeholder = "Deixe seu comentário."></textarea>
+                <input type="submit" class="enviar" value="Enviar">
+                </form>
+             </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape"> 
+            <p><strong>©Todos os direitos reservados</strong></p>
+        </div>
+    </footer>
+</body>
+</html>
